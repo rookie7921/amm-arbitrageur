@@ -28,7 +28,7 @@ const config: HardhatUserConfig = {
     },
     bsc: {
       url: BSC_RPC,
-      chainId: 0x38,
+      chainId: 56,
       accounts: [deployer.private],
     },
   },

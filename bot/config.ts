@@ -10,11 +10,11 @@ interface Config {
   concurrency: number;
 }
 
-const contractAddr = '0xXXXXXXXXXXXXXXXXXXXXXX'; // flash bot contract address
+const contractAddr = '0x15b90cd28d9acFB438BD06197522A6C9178c754E'; // flash bot contract address
 const gasPrice = utils.parseUnits('10', 'gwei');
 const gasLimit = 300000;
 
-const bscScanApiKey = 'XXXXXXXXXXXXXXXX'; // bscscan API key
+const bscScanApiKey = 'G7E2WYTISXBV9BR3369G86JG73C5ZT5SQ2'; // bscscan API key
 const bscScanUrl = `https://api.bscscan.com/api?module=stats&action=bnbprice&apikey=${bscScanApiKey}`;
 
 const config: Config = {
